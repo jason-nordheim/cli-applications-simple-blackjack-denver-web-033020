@@ -78,5 +78,4 @@ def runner
       end_game(total)
     end
   end 
-
 end
