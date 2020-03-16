@@ -56,7 +56,6 @@ def hit?(current_total)
     invalid_command()
     return hit?(total)
   end
-
 end
 
 def invalid_command()
