@@ -40,28 +40,7 @@ end
 
 def hit?(current_total)
   # calls on #prompt_user then #get_user_input
-  new_total = current_total
-  prompt_user()
-  user_input = get_user_input
-
-  # user requesting hit
-  if user_input == "h" || user_input == "H"
-    new_card = deal_card()
-    # see if dealing put them over
-    new_total = new_card + current_total
-    if new_total <= 21
-      display_card_total(new_total)
-      hit?()
-    else
-      end_game(new_total)
-    end
-  # user decided to stay
-  elsif user_input == "s" || user_input == "S"
-    display_card_total(current_total)
-  else
-    invalid_command
-  end
-  return new_total
+  total = current_total 
 end
 
 def invalid_command()
