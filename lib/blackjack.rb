@@ -49,10 +49,10 @@ def hit?(current_total)
   if response == "h"# user requested new card
 
   elsif response == "s" # user chose to keep current hand
-
+    return total 
   else
     invalid_command()
-    hit?() 
+    hit?()
   end
 
   return total
