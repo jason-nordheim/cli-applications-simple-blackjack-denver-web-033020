@@ -47,9 +47,9 @@ def hit?(current_total)
   response = get_user_input()
 
   if response == "h"# user requested new card
-
+    new_card = deal_card() 
   elsif response == "s" # user chose to keep current hand
-    return total 
+    return total
   else
     invalid_command()
     hit?()
