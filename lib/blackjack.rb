@@ -50,8 +50,9 @@ def hit?(current_total)
 
   elsif response == "s" # user chose to keep current hand
 
-    
   end
+
+  return total
 end
 
 def invalid_command()
