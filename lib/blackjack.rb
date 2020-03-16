@@ -45,10 +45,12 @@ def hit?(current_total)
   prompt_user()
   # capture their input
   response = get_user_input()
-  if response == "h"
-    # user requested new card
-  elsif response == "s"
-    # user chose to keep current hand 
+
+  if response == "h"# user requested new card
+
+  elsif response == "s" # user chose to keep current hand
+
+    
   end
 end
 
