@@ -40,7 +40,8 @@ end
 
 def hit?(current_total)
   # calls on #prompt_user then #get_user_input
-  total = current_total 
+  total = current_total
+  response = get_user_input() 
 end
 
 def invalid_command()
