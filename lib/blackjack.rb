@@ -41,7 +41,8 @@ end
 def hit?(current_total)
   # calls on #prompt_user then #get_user_input
   total = current_total
-  prompt_user() 
+  # Ask the user if they want to "hit" or "stay"
+  prompt_user()
   response = get_user_input()
 end
 
