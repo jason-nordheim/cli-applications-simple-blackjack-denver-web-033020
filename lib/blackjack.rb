@@ -43,8 +43,13 @@ def hit?(current_total)
   total = current_total
   # Ask the user if they want to "hit" or "stay"
   prompt_user()
-  # capture their input 
+  # capture their input
   response = get_user_input()
+  if response == "h"
+    # user requested new it 
+  elsif response == "s"
+
+  end
 end
 
 def invalid_command()
