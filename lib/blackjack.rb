@@ -70,6 +70,7 @@ end
 def runner
   # code runner here
   welcome()
-  total = initial_round() 
+  total = initial_round()
+  total = hit?(total)
 
 end
